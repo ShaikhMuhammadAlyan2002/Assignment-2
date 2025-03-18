@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f1dc;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #ff6600;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            font-size: 24px;
+        }
+        .container {
+            width: 80%;
+            margin: 20px auto;
+            background: #fff;
+            padding: 20px;
+            border-radius: 10px;
+        }
+        h2 {
+            color: #333;
+        }
+        img {
+            width: 100%;
+            max-width: 400px;
+            display: block;
+            margin: 10px auto;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #ff6600;
+            color: white;
+        }
+        .video-container {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .form-container {
+            margin-top: 20px;
+        }
+        input, textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 5px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        button {
+            background-color: #ff6600;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    Delicious Recipes
+    <p>Your source for mouth-watering dishes</p>
+</header>
+
+<div class="container">
+    <h2>Recipe of the Day: Spaghetti Carbonara</h2>
+    <p>Spaghetti Carbonara is a classic Italian pasta dish made with eggs, cheese, pancetta, and pepper. It’s simple, delicious, and perfect for any occasion.</p>
+    
+    <img src="spaghetti-carbonara.jpg" alt="Spaghetti Carbonara">
+    
+    <h3>Ingredients</h3>
+    <ul>
+        <li>200g spaghetti</li>
+        <li>100g pancetta</li>
+        <li>2 large eggs</li>
+        <li>50g Pecorino cheese</li>
+        <li>50g Parmesan</li>
+        <li>Black pepper</li>
+        <li>Salt</li>
+    </ul>
+
+    <h3>Steps to Prepare</h3>
+    <ol>
+        <li>Boil the spaghetti in salted water until al dente.</li>
+        <li>Fry the pancetta until crispy.</li>
+        <li>Beat the eggs and mix with grated cheeses.</li>
+        <li>Drain the spaghetti and mix with pancetta.</li>
+        <li>Remove from heat and stir in the egg and cheese mixture.</li>
+        <li>Season with black pepper and serve immediately.</li>
+    </ol>
+
+    <h3>Nutritional Information</h3>
+    <table>
+        <tr>
+            <th>Nutrient</th>
+            <th>Amount per Serving</th>
+        </tr>
+        <tr>
+            <td>Calories</td>
+            <td>500</td>
+        </tr>
+        <tr>
+            <td>Protein</td>
+            <td>25g</td>
+        </tr>
+        <tr>
+            <td>Carbohydrates</td>
+            <td>55g</td>
+        </tr>
+        <tr>
+            <td>Fat</td>
+            <td>20g</td>
+        </tr>
+    </table>
+
+    <div class="video-container">
+        <h3>Cooking Tutorial Video</h3>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ" 
+            title="Spaghetti Carbonara Video" frameborder="0" allowfullscreen></iframe>
+    </div>
+
+    <div class="form-container">
+        <h3>Submit Your Recipe</h3>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="recipe">Your Recipe:</label>
+            <textarea id="recipe" name="recipe" rows="5" required></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</div>
+
+</body>
+</html>
